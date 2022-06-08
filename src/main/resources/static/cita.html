@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Peluquería LOLY</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">Peluquería LOLY</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="damas.html">Damas</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="caballeros.html">Caballeros</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="niños.html">Niños</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="skincare.html">Skincare</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ubicacion.html">Ubicación</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="siguenos.html">Redes Sociales</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="cita.html">Cita</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h2>Agendar cita</h2>
+        <br>
+        <p>El siguiente formulario es para los clientes que deseen agendar una cita: </p>
+        <br>
+        <form action="#" method="POST">
+            <label>Nombre</label>
+            <input placeholder="nombre" type="text" name="nombre" value="" size="20" />
+            <br><br>
+            <label>Apellidos</label>
+            <input placeholder="apellidos" type="text" name="apellidos" value="" size="30" />
+            <br><br>
+            <label>Correo</label>
+            <input placeholder="correo@gmail.com" type="email" name="correo" value="" size="15" />
+            <br><br>
+            <label>Teléfono</label>
+            <input placeholder="8888-8888" type="tel" name="phone" value="" size="15" />
+            <br><br>
+            <label>Fecha y hora de la cita</label>
+            <input type="datetime-local" name="hora"/>
+            <br><br>
+            <input type="submit" value="Agendar"/>
+            <br><br>
+            <label style="color: red">Limpiar formulario</label>
+            <input type="reset" value="Borrar"/>
+        </form>
+    </body>
+</html>
